@@ -10,10 +10,24 @@
     "type": "git",
     "url": "git+https://github.com/D3C0RU5/clean-node-api.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/D3C0RU5/clean-node-api/issues"
   },
-  "homepage": "https://github.com/D3C0RU5/clean-node-api#readme"
+  "homepage": "https://github.com/D3C0RU5/clean-node-api#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.31",
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "@typescript-eslint/parser": "^5.23.0",
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.2"
+  }
 }

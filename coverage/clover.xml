@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1652302598633" clover="3.2.0">
+  <project timestamp="1652302598633" name="All files">
+    <metrics statements="70" coveredstatements="70" conditionals="29" coveredconditionals="29" methods="20" coveredmethods="20" elements="119" coveredelements="119" complexity="0" loc="70" ncloc="70" packages="10" files="14" classes="14"/>
+    <package name="domain.usecases">
+      <metrics statements="15" coveredstatements="15" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+      <file name="auth-usecase.ts" path="/home/decorus/Laboratorio/node/clean-node-api/src/domain/usecases/auth-usecase.ts">
+        <metrics statements="15" coveredstatements="15" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+        <line num="22" count="21" type="stmt"/>
+        <line num="23" count="21" type="stmt"/>
+        <line num="24" count="21" type="stmt"/>
+        <line num="25" count="21" type="stmt"/>
+        <line num="28" count="21" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="31" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="35" count="19" type="stmt"/>
+        <line num="37" count="16" type="cond" truecount="2" falsecount="0"/>
+        <line num="38" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="39" count="11" type="stmt"/>
+        <line num="40" count="8" type="stmt"/>
+        <line num="41" count="5" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="infra.helpers.mongo-helper">
+      <metrics statements="8" coveredstatements="8" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <file name="index.ts" path="/home/decorus/Laboratorio/node/clean-node-api/src/infra/helpers/mongo-helper/index.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="1" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="infra.repositories.load-user-by-email-repository">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="index.ts" path="/home/decorus/Laboratorio/node/clean-node-api/src/infra/repositories/load-user-by-email-repository/index.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="10" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="presentation.errors">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="index.ts" path="/home/decorus/Laboratorio/node/clean-node-api/src/presentation/errors/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="server-error.ts" path="/home/decorus/Laboratorio/node/clean-node-api/src/presentation/errors/server-error.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="11" type="stmt"/>
+        <line num="4" count="11" type="stmt"/>
+      </file>
+      <file name="unauthorized-error.ts" path="/home/decorus/Laboratorio/node/clean-node-api/src/presentation/errors/unauthorized-error.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="presentation.helpers">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <file name="http-response.ts" path="/home/decorus/Laboratorio/node/clean-node-api/src/presentation/helpers/http-response.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="27" count="7" type="stmt"/>
+      </file>
+    </package>
+    <package name="presentation.routers">
+      <metrics statements="15" coveredstatements="15" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+      <file name="login-router.ts" path="/home/decorus/Laboratorio/node/clean-node-api/src/presentation/routers/login-router.ts">
+        <metrics statements="15" coveredstatements="15" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+        <line num="10" count="14" type="stmt"/>
+        <line num="11" count="14" type="stmt"/>
+        <line num="15" count="14" type="stmt"/>
+        <line num="16" count="14" type="stmt"/>
+        <line num="17" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="21" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="25" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="29" count="4" type="stmt"/>
+        <line num="30" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="36" count="7" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils.email-validator">
+      <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="index.ts" path="/home/decorus/Laboratorio/node/clean-node-api/src/utils/email-validator/index.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="6" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils.encrypter">
+      <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="index.ts" path="/home/decorus/Laboratorio/node/clean-node-api/src/utils/encrypter/index.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="7" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils.errors">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="index.ts" path="/home/decorus/Laboratorio/node/clean-node-api/src/utils/errors/index.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="invalid-param-error.ts" path="/home/decorus/Laboratorio/node/clean-node-api/src/utils/errors/invalid-param-error.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+      <file name="missing-param-error.ts" path="/home/decorus/Laboratorio/node/clean-node-api/src/utils/errors/missing-param-error.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="20" type="stmt"/>
+        <line num="4" count="20" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils.token-generator">
+      <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="index.ts" path="/home/decorus/Laboratorio/node/clean-node-api/src/utils/token-generator/index.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="10" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
